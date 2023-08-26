@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  rgb(6, 6, 58);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(38, 38, 124);
+    height: 75px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(135, 135, 215);
+    font-size: 1.03rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.leftSection {
+    font-size: 3rem;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 80%;
+    height: 290px;
+    margin: 40px 0;
+    border-radius: 50%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.para {
+    font-size: 1.5rem;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: 40px 120px;
+    height: 40vh;
+    padding-bottom: 40px;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.text-gray {
+    color: gray;
+    font-size: 10px;
+}
+
+.secondSection p {
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: 40px 120px;
+    height: 12vh;
+    padding-bottom: 40px;
+}
+
+.textgray1 {
+    color: gray;
+    font-size: 8px;
+}
+
+.container {
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    color: black;
+    height: 350px;
+}
+
+.skill-title {
+    height: 120px;
+    width: 120px;
+    background-color: #F9F6EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+
+}
+
+
+.img-skills{
+    max-width: 45px;
+    max-height: 45px;
+
+}
+
+.skill-all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+
+}
+.h4text {
+    text-align: center;
+}
+.fourth-section{
+    max-width: 80vw;
+    margin: 40px 300px;
+    height: 40vh;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+.textgray2{
+    color: gray;
+    font-size: 10px;
+}
+.text-heading{
+    margin-left: 112px;
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+.four-container{
+    height: 350px;
+    width: 70%;
+    background-color: #F9F6EE;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 25px;
+    padding: 3.3%;
+
+}
+.project-h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.img-project img{
+    height: 250px;
+    width: 300px;
+    margin: 20px 20px;
+}
+.img-project{
+    display: flex;
+    align-items: center;
+}
+.project-right{
+    color: black;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.pro-h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.ol-item{
+font-style: italic;
+}
+.four-github{
+    color: blueviolet;
+}
+.section-five{
+    max-width: 80vw;
+    margin: 40px 110px;
+    height: 70vh;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.text-heading-five{
+    margin-top: 60px;
+}
+.container-five{
+    background-color:#F9F6EE;
+    height: 320px;
+    width: 1000px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.contact-types{
+    display: flex;
+    text-align: center;
+
+}
+.type-box{
+    margin: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px 2px rgba(108, 95, 95, 0.4);
+    background-color:F9F6EE;
+    height: 250px;
+    width: 400px;
+}
+.five-text{
+    color: black;
+}
+.five-text2{
+    color: black;
+    font-style: italic;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.five-margin{
+    margin-top: 60px;
+}
+.img-svg{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.footer-text{
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+    background-color: rgb(38, 38, 124);
+    color: white;
+}
